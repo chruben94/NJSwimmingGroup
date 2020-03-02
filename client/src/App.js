@@ -5,6 +5,10 @@ import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import AllNav from "./components/Nav";
 import AboutUs from "./pages/AboutUs";
+import Schedule from "./pages/Schedule";
+import Instructors from "./pages/Instructors";
+import Home from "./pages/Home";
+import Pools from "./pages/Pools";
 
 function App() {
   return (
@@ -12,18 +16,20 @@ function App() {
       <div>
         <AllNav />
         <Switch>
-          <Route exact path="/" component={Appointments} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/appointments" component={Appointments} />
           <Route exact path="/appointments/:id" component={Detail} />
           <Route exact path="/AboutUs" component={AboutUs} />
-
-          {/* <Route exact path="/" component={Home} />
-          
           <Route exact path="/Schedule" component={Schedule} />
           <Route exact path="/Instructors" component={Instructors} />
-          <Route exact path="/Locations" component={Locatiom} />
+          <Route exact path="/Pools" component={Pools} />
+
+
+
+
+          {/* <Route exact path="/Pools" component={Pools} />
           <Route exact path="/appointments" component={Appointments} />
-          <Route exact path="/appointments/:id" component={Detail} /> */}
+          <Route exact path="/appointments/:id" component={Detail} />  */}
 
           <Route component={NoMatch} />
         </Switch>

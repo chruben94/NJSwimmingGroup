@@ -7,10 +7,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
   NavbarText
 } from 'reactstrap';
 
@@ -36,7 +32,10 @@ const AllNav = (props) => {
               <NavLink href="/Instructors">Instructors</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/Locations">Locations</NavLink>
+              <NavLink href="/Pools">Pools</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/appointments">Appointments</NavLink>
             </NavItem>
             {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
