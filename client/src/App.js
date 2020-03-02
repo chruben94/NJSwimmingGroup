@@ -4,10 +4,9 @@ import Appointments from "./pages/Appointments";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import AllNav from "./components/Nav";
-import AboutUs from "./pages/AboutUs";
+import Home from "./pages/Home";
 import Schedule from "./pages/Schedule";
 import Instructors from "./pages/Instructors";
-import Home from "./pages/Home";
 import Pools from "./pages/Pools";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/appointments" component={Appointments} />
           <Route exact path="/appointments/:id" component={Detail} />
-          <Route exact path="/AboutUs" component={AboutUs} />
           <Route exact path="/Schedule" component={Schedule} />
           <Route exact path="/Instructors" component={Instructors} />
           <Route exact path="/Pools" component={Pools} />
