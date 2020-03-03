@@ -5,6 +5,7 @@ import bccPic from "../images/bccPic.jpg";
 import holisticPic from "../images/holisticPic.jpg";
 import cliftonsportsPic from "../images/cliftonsportsPic.jpg";
 import panzercenterPic from "../images/panzercenterPic.jpg";
+import "./style.css";
 
 const Pools = (props) => {
     return (
