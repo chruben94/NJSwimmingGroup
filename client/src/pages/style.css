@@ -4,4 +4,8 @@
     
 }
 
- 
+ .card {
+     max-width: 600px;
+     max-height: 800px;
+ }
+

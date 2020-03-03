@@ -17,7 +17,7 @@ const Instructors = (props) => {
         <div className="instructors-container">
             <CardDeck>
                 <Card>
-                    <CardImg top width="90%" src={joshPic} />
+                    <CardImg top height="400px" top width="300px" src={joshPic} />
                     <CardBody>
                         <CardTitle>Joshua Kim</CardTitle>
                         <CardSubtitle>Head Coach</CardSubtitle>
@@ -40,7 +40,7 @@ U.S. Open Breast Storke 25m 14th (1994)</CardText>
                     </CardBody>
                 </Card>
                 <Card>
-                    <CardImg top width="90%" src={josephPic} />
+                    <CardImg top height="400px" top width="300px" src={josephPic} />
                     <CardBody>
                         <CardTitle>Joseph Lee</CardTitle>
                         <CardSubtitle>Head Coach</CardSubtitle>
@@ -62,7 +62,7 @@ CMAS, Word Underwater Federation Certified Instructor (2012)</CardText>
                     </CardBody>
                 </Card>
                 <Card>
-                    <CardImg top width="90%" src={maryPic} />
+                    <CardImg top height="400px" top width="300px" src={maryPic} />
                     <CardBody>
                         <CardTitle>Mary Kim</CardTitle>
                         <CardSubtitle>Synchronized Team Head Coach</CardSubtitle>
@@ -84,7 +84,7 @@ Dolphins Swimming School Coach (2007-2012)</CardText>
 
             <CardDeck>
                 <Card>
-                    <CardImg top width="90%" src={jasonPic} />
+                    <CardImg top height="500px" top width="400px" src={jasonPic} />
                     <CardBody>
                         <CardTitle>Jason Lee</CardTitle>
                         <CardSubtitle>Manager & Instructor</CardSubtitle>
@@ -93,7 +93,7 @@ Dolphins Swimming School Coach (2007-2012)</CardText>
                     </CardBody>
                 </Card>
                 <Card>
-                    <CardImg top width="90%" src={rubenPic} />
+                    <CardImg top height="500px" top width="400px" src={rubenPic} />
                     <CardBody>
                         <CardTitle>Ruben Chavez</CardTitle>
                         <CardSubtitle>Instructor</CardSubtitle>
@@ -102,7 +102,7 @@ Dolphins Swimming School Coach (2007-2012)</CardText>
                     </CardBody>
                 </Card>
                 <Card>
-                    <CardImg top width="90%" src={judePic} />
+                    <CardImg top height="500px" top width="400px" src={judePic} />
                     <CardBody>
                         <CardTitle>Jude Sanchez</CardTitle>
                         <CardSubtitle>Instructor</CardSubtitle>
