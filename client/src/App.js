@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Schedule from "./pages/Schedule";
 import Instructors from "./pages/Instructors";
 import Pools from "./pages/Pools";
+import AboutUs from "./pages/AboutUs"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <AllNav />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/AboutUs" component={AboutUs} />
           <Route exact path="/appointments" component={Appointments} />
           <Route exact path="/appointments/:id" component={Detail} />
           <Route exact path="/Schedule" component={Schedule} />

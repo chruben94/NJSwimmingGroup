@@ -23,6 +23,9 @@ const AllNav = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
+              <NavLink href="/AboutUs">About Us</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href="/Schedule">Schedule</NavLink>
             </NavItem>
             <NavItem>
