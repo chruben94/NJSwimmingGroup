@@ -3,11 +3,12 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import poolPic from "../images/poolPic.jpg"
 
 function AboutUs() {
     return (
         <div>
-            <Hero backgroundImage="">
+            <Hero backgroundImage={poolPic}>
                 <h1>New Jersey Swimming Group</h1>
                 <h2></h2>
             </Hero>
