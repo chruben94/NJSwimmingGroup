@@ -7,8 +7,10 @@ import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
 import { Input, FormBtn } from "../components/Form";
 import "./style.css";
+import fire from "../pages/Fire";
 
 class Appointments extends Component {
+ 
   state = {
     appointments: [],
     Day: "",
@@ -133,6 +135,7 @@ class Appointments extends Component {
               )}
           </Col>
         </Row>
+      
       </Container>
     );
   }

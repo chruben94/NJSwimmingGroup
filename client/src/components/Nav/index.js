@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState , Component } from 'react';
+import Login from "../../pages/Login";
 import {
   Collapse,
   Navbar,
@@ -34,9 +35,9 @@ const AllNav = (props) => {
             <NavItem>
               <NavLink href="/Pools">Pools</NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink href="/appointments">Appointments</NavLink>
-            </NavItem>
+            </NavItem> */}
             {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Options
@@ -55,7 +56,7 @@ const AllNav = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown> */}
           </Nav>
-          <NavbarText> <a href="#">Sign In</a></NavbarText>
+          <NavbarText> <a href="/Login">Sign In</a></NavbarText>
         </Collapse>
       </Navbar>
     </div>
