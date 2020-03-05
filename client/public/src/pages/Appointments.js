@@ -9,15 +9,18 @@ import { Input, FormBtn } from "../components/Form";
 import "./style.css";
 import fire from "../pages/Fire";
 
+
 class Appointments extends Component {
- 
-  state = {
+ constructor(props) {
+    super(props)
+    this.state = {
     appointments: [],
     Day: "",
     Time: "",
     Lane: "",
     Student: "",
     Status: ""
+  }
   };
 
   componentDidMount() {
@@ -61,12 +64,17 @@ class Appointments extends Component {
     }
   };
 
+  logout(){
+    fire.auth().signOut();
+}
+
   render() {
 
     const appointment = this.state.Day
     console.log(appointment)
     return (
       <Container fluid>
+         <button style={buttonStyle} onClick={this.logout}>Logout</button>
         <Row>
           <Col size="md-6">
             <Jumbotron>
@@ -134,11 +142,20 @@ class Appointments extends Component {
                 <h3>No Results to Display</h3>
               )}
           </Col>
+        
         </Row>
       
       </Container>
     );
   }
+}
+
+const buttonStyle = {
+  color: 'black',
+  padding: '5px',
+  borderRadius: '10px',
+  background: 'lightblue',
+  float: 'right'
 }
 
 export default Appointments;
