@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { UncontrolledCarousel } from 'reactstrap';
 import c3 from "../images/c3.jpg";
 
@@ -26,6 +26,8 @@ const items = [
         key: '3'
     }
 ];
+
+
 
 const Home = () => <UncontrolledCarousel items={items} />;
 
